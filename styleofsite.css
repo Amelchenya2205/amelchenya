@@ -1,10 +1,10 @@
 .wrapper {
   height: 100vh;
-
+  display: flex;
 }
 
 .main {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .left-menu {
@@ -13,78 +13,123 @@
   height: 100%;
 }
 
-
-
-
 .left-menu__header {
-    display: flex;
-    padding: 16px;
-    border-bottom: 1px;
+  display: flex;
+  padding: 16px;
+  border-bottom: 1px solid white;
 }
 
 .left-menu__header-icon {
-    margin-right: 16px;
-
+  margin-right: 16px;
 }
 
 .left-menu__header-text {
-    color: #ffffff;
-    font-family: "Roboto";
-    font-size: 26px;
-    margin-right: 89px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+  margin-right: 89px;
 }
 
 .left-menu__header-action {
-    
-    margin-right: 20px;
-
+  margin-right: 20px;
 }
 
 .left-menu__list {
-
 }
 
 .menu-item {
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-size: 13px;
-
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 13px;
 }
 
 .menu-item__header {
-    display: flex;
-    padding: 12px;
+  display: flex;
+  padding: 12px;
+
 }
 
 .menu-item__header-icon {
-    
-    margin-right: 9px;
+  margin-right: 9px;
 }
 
 .menu-item__header-text {
-    margin-left: 9px;
-    width: 156px;
+  margin-left: 9px;
+  width: 156px;
 }
 
 .menu-item__header-action {
-    margin-left: auto;
-
+  margin-left: auto;
 }
 
 .menu-item__list {
-    margin-left: 50px;
-
+  margin-left: 50px;
 }
 
 .menu-item__list-item {
-    color: #909EBB;
-    font-family: 'Roboto';
-    font-size: 13px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    
+  color: #909ebb;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin: 8px 0;
 }
 
+.main {
+  width: 100%;
+  min-width: 1200px;
+}
 
+.main-menu__header {
+  height: 64px;
+  min-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 40px;
+}
 
+.main-menu__header-icon1 {
+  display: inline-flex;
+  position: relative;
+}
 
+.main-menu__header-icon1-1 {
+  height: 16px;
+  width: 16px;
+
+}
+
+.main-menu__header-icon1-2 {
+  position: absolute;
+  left: 6px;
+  bottom: 15px;
+  height: 5px;
+  width: 6px;  
+}
+
+.main-menu__header-same_icon {
+  padding-right: 20px;
+}
+
+.main-menu__header-icon4 {
+}
+
+.main-menu__header-icon5 {
+}
+
+.menu-item__header-icon {
+}
+
+.main {
+  
+}
+
+.main-menu__wrapper {
+  padding: 32px 40px;
+  height: calc(100% - 128px);
+  background-color: #ebebeb;
+
+}
+
+.main-menu__wrapper-body {
+  height: 100%;
+}
