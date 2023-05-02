@@ -139,10 +139,8 @@ button {
   border-bottom: #0068BD 1px solid;
 }
 
-.point-last {
-  color: #0068BD;
-  margin-left: 137px;
-  padding: 16px 16px 8px 16px;
-  
+.point-item:last-child {
+    color: #0068BD;
+    margin-left: 137px;
+    padding: 16px 16px 8px 16px;
 }
-
