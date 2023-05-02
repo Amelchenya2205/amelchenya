@@ -46,7 +46,6 @@
 .menu-item__header {
   display: flex;
   padding: 12px;
-
 }
 
 .menu-item__header-icon {
@@ -101,13 +100,13 @@
 }
 
 .main-wrapper {
-  
 }
 
 .main-wrapper__appeal {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 19px;
   color: #334059;
+  background-color: #ffffff;
   padding: 20px 24px 24px 24px;
   width: calc(100%-80px);
   border-bottom: #334059 1px solid;
@@ -115,13 +114,13 @@
 
 .body__point {
   display: flex;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 13px;
   color: #334059;
-  margin: 24px 0px 24px 0px;
-  padding: 16px 0px 8px 24px;
+  margin: 0px;
+  padding: 16px 0px 0px 24px;
   text-align: center;
-
+  border-bottom: #334059 1px solid;
 }
 
 button {
@@ -135,12 +134,44 @@ button {
 }
 
 .active {
-  color: #0068BD;
-  border-bottom: #0068BD 1px solid;
+  color: #0068bd;
+  border-bottom: #0068bd 3px solid;
 }
 
 .point-item:last-child {
-    color: #0068BD;
-    margin-left: 137px;
-    padding: 16px 16px 8px 16px;
+  color: #0068bd;
+  margin-left: 137px;
+  padding: 16px 16px 8px 16px;
+}
+
+.body__filter {
+  display: flex;
+  margin-top: 8px;
+}
+
+.filter-changer {
+  color: #0068bd;
+}
+
+.filter-item1 {
+  margin-right: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.filter-item2 {
+  margin-right: 42px;
+}
+
+.filter-item3 {
+  margin-right: 8px;
+}
+
+.filter-item4 {
+  margin-right: 2px;
+}
+
+.filter-item1 {
+  position: relative;
+  bottom: 2.5px;
 }
