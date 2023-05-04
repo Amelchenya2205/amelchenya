@@ -34,7 +34,13 @@
   margin-right: 20px;
 }
 
-.left-menu__list {
+.lmenu__three-last-points {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.special-for-last {
+  margin: 0px;
 }
 
 .menu-item {
@@ -54,7 +60,8 @@
 
 .menu-item__header-text {
   margin-left: 9px;
-  width: 156px;
+  /* width: 156px; */
+  flex-grow: 1;
 }
 
 .menu-item__header-action {
@@ -73,13 +80,13 @@
 }
 
 .main {
-  width: 100%;
-  min-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 }
 
 .main-menu__header {
   height: 64px;
-  min-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -87,8 +94,10 @@
 
 .main-wrapper {
   padding: 32px 40px;
-  height: calc(100% - 128px);
   background-color: #ebebeb;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-menu__header-same_icon {
@@ -97,9 +106,7 @@
 .main-wrapper__body {
   height: 100%;
   padding: 24px;
-}
-
-.main-wrapper {
+  flex-grow: 1;
 }
 
 .main-wrapper__appeal {
@@ -108,7 +115,7 @@
   color: #334059;
   background-color: #ffffff;
   padding: 20px 24px 24px 24px;
-  width: calc(100%-80px);
+  /* width: calc(100%-80px); */
   border-bottom: #334059 1px solid;
 }
 
@@ -140,7 +147,7 @@ button {
 
 .point-item:last-child {
   color: #0068bd;
-  margin-left: 137px;
+  margin-left: auto;
   padding: 16px 16px 8px 16px;
 }
 
@@ -174,4 +181,66 @@ button {
 .filter-item1 {
   position: relative;
   bottom: 2.5px;
+}
+
+.body__table {
+  padding: 16px 8px 16px 16px;
+  margin-top: 16px;
+  border-bottom: 1px solid grey;
+}
+
+.block-first-line {
+  width: 100%;
+}
+
+.table-block-first-line {
+  font-family: 'Roboto';
+  font-size: 11px;
+  color: #6F7C98;
+  height: 48px;
+}
+.block-second-line {
+  width: 100%;
+  background: #F0F3FF;
+}
+
+.first-line-cell {
+  padding: 16px 8px 16px 16px;
+}
+
+.first-column {
+  width: 200px;
+  
+}
+
+.first-column-top-text {
+  color: #0068BD;
+  font-family: 'Roboto'
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.first-column-bottom-text {
+  color: #6F7C98;
+  font-family: 'Roboto'
+  font-size: 11px;
+}
+
+.second-column {
+  width: 300px;
+}
+
+.second-column {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #334059;
+  line-height: 20px;
+}
+
+.third-column {
+  width: 357px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #334059;
+  line-height: 20px;
 }
