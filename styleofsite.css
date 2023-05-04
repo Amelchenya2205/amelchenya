@@ -133,7 +133,11 @@
 button {
   border: none;
   background-color: white;
+  cursor: pointer;
 }
+
+
+
 
 .point-item {
   margin-right: 0px 32px 0px 0px;
@@ -218,6 +222,13 @@ button {
   font-family: 'Roboto'
   font-size: 13px;
   line-height: 20px;
+  
+}
+
+.first-column-link {
+  text-decoration: none;
+  color: #0068bd;
+
 }
 
 .first-column-bottom-text {
@@ -243,4 +254,8 @@ button {
   font-size: 13px;
   color: #334059;
   line-height: 20px;
+}
+
+.last-cells {
+  width: 40px;
 }
