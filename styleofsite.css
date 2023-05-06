@@ -259,3 +259,35 @@ button {
 .last-cells {
   width: 40px;
 }
+
+.body__footer {
+  display: flex;
+  text-align: center;
+  justify-content: end;
+}
+
+.footer-text1 {
+  margin-right: 10px;
+}
+
+.footer-text2 {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #909EBB;
+  position: relative;
+  top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.leftvector {
+  position: relative;
+  top: 1px;
+  margin-right: 8px;
+}
+
+.rightvector {
+  position: relative;
+  top: 0px;
+}
