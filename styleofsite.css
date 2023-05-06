@@ -90,6 +90,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
+  padding: 14px;
 }
 
 .main-wrapper {
