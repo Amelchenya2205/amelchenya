@@ -1,6 +1,8 @@
 "use strict"
 
 
+// Фильтрация по диапазону
+
 
 let arr = [5, 3, 8, 1];
 
@@ -11,11 +13,8 @@ let filterRange = function(arr, a, b) {
     let finishArr = [];
     for(let key of arr) {
         if(arr[key] >= a && arr[key] <= b) {
-            return finishArr += arr[key]
-        }
-        else {
-            return
+            finishArr.push(key)
         }
     }
-   
+    console.log(finishArr);
 }

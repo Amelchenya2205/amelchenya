@@ -1,5 +1,9 @@
 'use strict'
 
+
+
+// Переведите текст вида border-left-width в borderLeftWidth
+
 let smallString = 'my-short-string';
 
 let foo = function(a) {
