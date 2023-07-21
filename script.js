@@ -223,20 +223,20 @@
 //   }
 // };
 
-let foo = function () {
-  let name = prompt("Введите свое имя");
-  const year = prompt("Введите год рождения");
-  let age = 2023 - year;
+// let foo = function () {
+//   let name = prompt("Введите свое имя");
+//   const year = prompt("Введите год рождения");
+//   let age = 2023 - year;
 
-  let result = "";
-  if (age % 10 == 1) {
-    return (result += name + ": " + age + "год");
-  }
-  if (age % 10 <= 4 && age % 2 > 1) {
-    return (result += name + ": " + age + "года");
-  }
-  if (age % 10 <= 9 && age % 2 > 4 && age % 2 == 0) {
-    return (result += name + ": " + age + "лет");
-  }
-  console.log(result);
-};
+//   let result = "";
+//   if (age % 10 == 1) {
+//     return (result += name + ": " + age + "год");
+//   }
+//   if (age % 10 <= 4 && age % 2 > 1) {
+//     return (result += name + ": " + age + "года");
+//   }
+//   if (age % 10 <= 9 && age % 2 > 4 && age % 2 == 0) {
+//     return (result += name + ": " + age + "лет");
+//   }
+//   console.log(result);
+// };
