@@ -11,7 +11,7 @@ let masha = { name: "Маша", surname: "Петрова", id: 3 };
 
 let a = [];
 
-let namesMass = a.push(vasya, petya, masha);
+let namesMass = [vasya, petya, masha]
 
 console.log(namesMass);
 
@@ -21,3 +21,5 @@ let usersMapped = namesMass.map(namesMass => ({
 
 
 console.log(usersMapped);
+
+
