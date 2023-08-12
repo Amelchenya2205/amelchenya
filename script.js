@@ -240,3 +240,13 @@
 //   }
 //   console.log(result);
 // };
+
+
+let parent = document.querySelector('tbody');
+let arr = [];
+let foo = function(arr) {
+for(let a of parent) {
+    return arr += a.firstChild;
+}
+console.log(foo(arr));
+};
