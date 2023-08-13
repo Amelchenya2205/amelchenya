@@ -244,9 +244,10 @@
 
 let parent = document.querySelector('tbody');
 let arr = [];
-let foo = function(arr) {
-for(let a of parent) {
-    return arr += a.firstChild;
+let domFoo = function(arr) {
+for(let a = 0; a <= parent.length - 1; a++) {
+    // return arr += arr[a].firstChild;
+    console.log(a)
 }
-console.log(foo(arr));
+// console.log(foo(arr));
 };

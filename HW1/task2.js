@@ -8,15 +8,15 @@
 
 
 
-const animals = ['monkey', 'dog', 'cat'];
+// const animals = ['monkey', 'dog', 'cat'];
 
 
-let foo = function(arr) {
-    for(let key in arr) {
-        if(key == arr.length - 1) {
-            return arr[key];
-        } 
-    }
-    console.log(foo(arr));
-}
+// let foo = function(arr) {
+//     for(let key in arr) {
+//         if(key == arr.length - 1) {
+//             return arr[key];
+//         } 
+//     }
+//     console.log(foo(arr));
+// }
 
