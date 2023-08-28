@@ -1,0 +1,108 @@
+.wrapper {
+    width: 420px;
+    border: #0f0f0f 2px solid;
+    border-radius: 10px;
+    background-color: #d1dbde;
+    
+}
+
+.header {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+.leftTopButton {
+    border-radius: 10px;
+    margin: 15px 15px 0px 15px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.centerTopText {
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-left: 27px;
+    padding: 6px;
+    border: 2px;
+    border-color: black;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rightTopButton {
+    border-radius: 10px;
+    margin: 15px 15px 0px 40px;
+    padding: 6px 15px 6px 15px;
+    cursor: pointer;
+}
+
+.toDo {
+    border-radius: 10px;
+    border: #0f0f0f 2px solid;
+    border-color: black;
+    margin: 0px 30px 15px 30px;
+    display: flex;
+    padding: 10px 10px 15px 10px;
+    height: 80px;
+}
+
+.checkMark {
+    border-radius: 10px;
+    /* transform: scale();  */
+    padding: 6px 18px 6px 18px;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+.innerCheckmark {
+    transform: scale(0.37); 
+    position: relative;
+    top: -20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.toDoTextarea {
+    margin-top: 9px;
+    margin-left: 27px;
+    padding: 6px;
+    border: 2px;
+    border-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.cross {
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+    position: relative;
+    top: -7px;
+    right: -54px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.innerCross {
+    height: 10px;
+    width: 10px;
+}
+.toDoDate {
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    right: -6px;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+.allButtons {
+    background-color: #4edec8;
+}
